@@ -1,5 +1,5 @@
 {
-  "name": "test1",
+  "name": "grunt_first_test",
   "version": "1.0.0",
   "description": "test_grunt",
   "main": "script.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/szczepaniakmichal/test_grunt/issues"
   },
-  "homepage": "https://github.com/szczepaniakmichal/test_grunt#readme"
+  "homepage": "https://github.com/szczepaniakmichal/test_grunt#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4"
+  }
 }
