@@ -1,0 +1,22 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "test_grunt",
+  "main": "script.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szczepaniakmichal/test_grunt.git"
+  },
+  "keywords": [
+    "test_grunt2"
+  ],
+  "author": "ms",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szczepaniakmichal/test_grunt/issues"
+  },
+  "homepage": "https://github.com/szczepaniakmichal/test_grunt#readme"
+}
