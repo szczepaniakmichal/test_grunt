@@ -4,13 +4,13 @@ grunt.loadNpmTasks('grunt-browser-sync');
 module.exports = function (grunt) {
     grunt.initConfig({
         watch: {
-            files: 'app/scss/**/*.scss',
+            files: './scss/**/*.scss',
             tasks: ['sass']
         },
         sass: {
             dev: {
                 files: {
-                    'app/css/main.css': 'app/scss/main.scss'
+                    './css/style.css': './scss/style.scss'
                 }
             }
         },
@@ -18,13 +18,13 @@ module.exports = function (grunt) {
             dev: {
                 bsFiles: {
                     src : [
-                        'app/css/*.css',
-                        'app/*.html'
+                        './css/*.css',
+                        './*.html'
                     ]
                 },
                 options: {
                     watchTask: true,
-                    server: './app'
+                    server: './'
                 }
             }
         }
@@ -36,5 +36,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-browser-sync');
 
     // define default task
-    grunt.registerTask('default', ['browserSync', 'watch']);
+    grunt.registerTask('default', ['browserSync', 'sass', 'watch']);
 };
